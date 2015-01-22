@@ -1,5 +1,4 @@
 # 5373-Swift-Programming-Ankur
-IOS
 
 Name: PATEL ANKUR
 
