@@ -7,6 +7,9 @@ As per a statistic people spends over 162 minutes on mobile devices per day. Usi
 ##References
 
 [1] Mate, P., Dhamale, S., Ohal, P., Pawar, R., “Peer To Peer Content Sharing On Wi-Fi Network For Smart Phones” Proceedings of IOSR Journal of Computer Engineering (IOSR-JCE) Volume 10, Issue 5 (Mar. - Apr. 2013), Pages 06-09.
+
 [2] Palazzi, C., Bujari, A., Cervi, E., “P2P File Sharing on Mobile Phones: Design and Implementation of a Prototype” Proceedings of the 3rd IFIP Wireless Days Conference 2010, Venice, Italy, Pages 136-140.
+
 [3] Lee, U., Jung, S., Cho, D., Gerla, M., “Bluetooth-based P2P Content Distribution to Mobile Users” Proceedings of Vehicular Technology, IEEE Transactions on Volume 59, Issue 1 (Jan, 2010), pages 365-367.
+
 [4] http://www.geekwire.com/2014/flurry-report-mobile-phones-162-minutes/
