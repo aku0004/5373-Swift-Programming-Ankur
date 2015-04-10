@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>01147BF9-E830-40EB-9944-C43D3C5DABEF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Swift Color Game for Kids</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</key>
+		<string>https://github.com/aku0004/5373-Swift-Programming-Ankur.git</string>
+		<key>BC20A5C738988CBF5C33964FB7059A9F32E135AC</key>
+		<string>https://github.com/kirantejbadana/4443-Swift-Programming-KBadana.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Color_Game_for_Kids/Swift Color Game for Kids.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</key>
+		<string>../../../..</string>
+		<key>BC20A5C738988CBF5C33964FB7059A9F32E135AC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kirantejbadana/4443-Swift-Programming-KBadana.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BC20A5C738988CBF5C33964FB7059A9F32E135AC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</string>
+			<key>IDESourceControlWCCName</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BC20A5C738988CBF5C33964FB7059A9F32E135AC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>4443-Swift-Programming-KBadana</string>
+		</dict>
+	</array>
+</dict>
+</plist>
