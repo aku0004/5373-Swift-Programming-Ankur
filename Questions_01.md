@@ -7,7 +7,7 @@
 
 -> Whats wrong with the code below?
 
-''' 
+'' 
 Switch Grades {
     case 0...60:
     print("FAIL")
@@ -21,6 +21,6 @@ Switch Grades {
     print("A")
     default:
     print("PASS")
-'''
+''
     
     
