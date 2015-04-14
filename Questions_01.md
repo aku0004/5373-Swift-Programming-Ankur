@@ -5,23 +5,45 @@
 
 ### QUESTIONS
 
--> Whats wrong with the code below?
+-> Do you see something wrong with the code below? Yes or No? Elaborate your answer. 
 
 ``` swift
 Switch Grades {
     case 0...60:
-    print("FAIL")
+    println("FAIL")
     case 60...70:
-    print("D")
+    println("D")
     case 70...80:
-    print("C")
+    println("C")
     case 80...90:
-    print("B")
+    println("B")
     case 90...10:
-    print("A")
+    println("A")
     default:
-    print("PASS")
+    println("PASS")
+    }
 ```
 
-    
-    
+-> What is the output of the following code?
+
+``` swift
+for index in 1...5{
+println("\(index) times 2 is \(index*2)")
+}
+
+for index in 1..<5{
+println("\(index) times 2 is \(index*2)")
+}
+```
+
+-> Arrays:
+
+```swift
+var cities = ["Atlanta", "Dallas"]
+```
+a). write a code to add the city "Chicago" to the array, cities.
+
+b). Write a code statement to add the city "New York" to the array after the city "Atlanta".
+
+c). write a code statement to remove the city "Dallas" from the array, cities.
+
