@@ -43,7 +43,7 @@ var cities = ["Atlanta", "Dallas"]
 ```
 a). write a code to add the city "Chicago" to the array, cities.
 
-b). Write a code statement to add the city "New York" to the array after the city "Atlanta".
+b). Write a code to add the city "New York" to the array after the city "Atlanta".
 
-c). write a code statement to remove the city "Dallas" from the array, cities.
+c). write a code to remove the city "Dallas" from the array, cities.
 
