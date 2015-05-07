@@ -52,6 +52,16 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     }
     
     
+    override func viewWillAppear(animated: Bool) {
+        let model = (self.tabBarController as! CustomTabBarController).model
+        
+        if let location = location{
+            model.latitude = location.coordinate.latitude
+            model.longitudes = location.coordinate.longitude
+        }
+    }
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -72,7 +82,7 @@ class CurrentLocationViewController: UIViewController, CLLocationManagerDelegate
     
     func locationManager(manager: CLLocationManager!,
         didUpdateLocations locations: [AnyObject]!) {
-            let newLocation = locations.last as CLLocation
+            let newLocation = locations.last as! CLLocation
             println("didUpdateLocations \(newLocation)")
             
             location = newLocation

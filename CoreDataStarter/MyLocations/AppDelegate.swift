@@ -23,7 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let coordinator = NSPersistentStoreCoordinator( managedObjectModel: model)
         let urls = NSFileManager .defaultManager() .URLsForDirectory (.DocumentDirectory, inDomains: .UserDomainMask)
             
-        let documentsDirectory = urls[0] as NSURL
+        let documentsDirectory = urls[0] as! NSURL
         let storeURL = documentsDirectory.URLByAppendingPathComponent("DataStore.sqlite")
         
             var error:NSError?
@@ -53,10 +53,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject : AnyObject]?) -> Bool {
         let tabBarController = window!.rootViewController
-        as UITabBarController
+        as! UITabBarController
         if let tabBarViewControllers = tabBarController.viewControllers {
         let currentLocationViewController =
-        tabBarViewControllers[0] as CurrentLocationViewController
+        tabBarViewControllers[0] as! CurrentLocationViewController
         currentLocationViewController.managedObjectContext = managedObjectContext
         }
         return true

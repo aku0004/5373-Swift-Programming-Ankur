@@ -31,7 +31,7 @@ class LocationDetailsViewController: UITableViewController {
         animated: true)
         hudView.text = "Tagged"
         // 1 
-        let location = NSEntityDescription.insertNewObjectForEntityForName( "Location", inManagedObjectContext: managedObjectContext) as Location
+        let location = NSEntityDescription.insertNewObjectForEntityForName( "Location", inManagedObjectContext: managedObjectContext) as! Location
         // 2
         location.locationDescription = descriptionText
         location.category = categoryName
@@ -135,13 +135,13 @@ class LocationDetailsViewController: UITableViewController {
 
   override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     if segue.identifier == "PickCategory" {
-      let controller = segue.destinationViewController as CategoryPickerViewController
+      let controller = segue.destinationViewController as! CategoryPickerViewController
       controller.selectedCategoryName = categoryName
     }
   }
   
   @IBAction func categoryPickerDidPickCategory(segue: UIStoryboardSegue) {
-    let controller = segue.sourceViewController as CategoryPickerViewController
+    let controller = segue.sourceViewController as! CategoryPickerViewController
     categoryName = controller.selectedCategoryName
     categoryLabel.text = categoryName
   }
