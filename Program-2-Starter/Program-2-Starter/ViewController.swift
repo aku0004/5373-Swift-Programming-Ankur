@@ -142,7 +142,8 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         lasttwo.backgroundColor = lastone.backgroundColor
         lastone.backgroundColor = latest.backgroundColor
         latest.backgroundColor = labelColor
-        println(labelColor)    }
+        println(labelColor)
+    }
     
     /********************************************************************************************
     * Function: parseJson

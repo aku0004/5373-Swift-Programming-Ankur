@@ -15,7 +15,7 @@ class SecondViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        /*// 1
+        // 1
        let location = CLLocationCoordinate2D(
             latitude: 51.50007773,
             longitude: -0.1246402
@@ -30,7 +30,7 @@ class SecondViewController: UIViewController {
         annotation.coordinate = location
         annotation.title = "Big Ben"
         annotation.subtitle = "London"
-        mapView.addAnnotation(annotation)*/
+        mapView.addAnnotation(annotation)
     }
     override func viewWillAppear(animated: Bool) {
         // Get a reference to the model data from the custom tab bar controller.
