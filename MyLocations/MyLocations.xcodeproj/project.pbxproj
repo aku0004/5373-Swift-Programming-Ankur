@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		110A69A91AFAB7C2008BC5E1 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110A69A81AFAB7C2008BC5E1 /* CustomTabBarController.swift */; };
+		102BB4171AC5FB0B001756A5 /* LocationTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102BB4161AC5FB0B001756A5 /* LocationTabBarController.swift */; };
 		857CC4F21AC1FDF000AF61ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */; };
 		857CC4F41AC1FDF000AF61ED /* CurrentLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC4F31AC1FDF000AF61ED /* CurrentLocationViewController.swift */; };
 		857CC4F61AC1FDF000AF61ED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857CC4F51AC1FDF000AF61ED /* SecondViewController.swift */; };
@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		110A69A81AFAB7C2008BC5E1 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		102BB4161AC5FB0B001756A5 /* LocationTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationTabBarController.swift; path = ../LocationTabBarController.swift; sourceTree = "<group>"; };
 		857CC4EC1AC1FDF000AF61ED /* MyLocations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyLocations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857CC4F01AC1FDF000AF61ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 		857CC4EE1AC1FDF000AF61ED /* MyLocations */ = {
 			isa = PBXGroup;
 			children = (
+				102BB4161AC5FB0B001756A5 /* LocationTabBarController.swift */,
 				857CC4F11AC1FDF000AF61ED /* AppDelegate.swift */,
 				857CC4F31AC1FDF000AF61ED /* CurrentLocationViewController.swift */,
-				110A69A81AFAB7C2008BC5E1 /* CustomTabBarController.swift */,
 				857CC4F51AC1FDF000AF61ED /* SecondViewController.swift */,
 				857CC4F71AC1FDF000AF61ED /* Main.storyboard */,
 				857CC4FA1AC1FDF000AF61ED /* Images.xcassets */,
@@ -221,7 +221,7 @@
 			files = (
 				857CC4F61AC1FDF000AF61ED /* SecondViewController.swift in Sources */,
 				857CC4F21AC1FDF000AF61ED /* AppDelegate.swift in Sources */,
-				110A69A91AFAB7C2008BC5E1 /* CustomTabBarController.swift in Sources */,
+				102BB4171AC5FB0B001756A5 /* LocationTabBarController.swift in Sources */,
 				857CC4F41AC1FDF000AF61ED /* CurrentLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +348,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyLocations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -362,7 +361,6 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MyLocations/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";

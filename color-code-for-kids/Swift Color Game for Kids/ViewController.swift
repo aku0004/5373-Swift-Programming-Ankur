@@ -62,8 +62,10 @@ class ViewController: UIViewController {
         //println(write)
         
         //Setup the url to get colors from
-        let url = "https://raw.githubusercontent.com/rugbyprof/msu-swift/master/Swift%20Color%20Game%20for%20Kids/Swift%20Color%20Game%20for%20Kids/colors.json?token=AA_qiMX6aezCbZRcASGFVWX5IFfGJ2pwks5U2nY9wA%3D%3D"
-
+        //let url = "https://raw.githubusercontent.com/rugbyprof/msu-swift/master/Swift%20Color%20Game%20for%20Kids/Swift%20Color%20Game%20for%20Kids/colors.json?token=AA_qiMX6aezCbZRcASGFVWX5IFfGJ2pwks5U2nY9wA%3D%3D"
+        
+        let url = "http://cs.mwsu.edu/~griffin/swift/colors2.json"
+        
         //Run alamo library get request to grab the json data
         request(.GET, url)
             .responseJSON { (req, res, json, error) in
@@ -104,8 +106,8 @@ class ViewController: UIViewController {
         
         
         //Another way to read the json file
-        let json = myJson.getJSON(url)
-        var jsonDict = myJson.parseJSON(json)
+        //let json = myJson.getJSON(url)
+        //var jsonDict = myJson.parseJSON(json)
         println("jsonDict")
     }
 
@@ -244,6 +246,8 @@ class ViewController: UIViewController {
 
 }
 
+
+
 /********************************************************************************************
 * File read and write helper class
 * Methods:
@@ -284,7 +288,7 @@ class myJson {
 
     class func parseJSON(inputData: NSData) -> NSDictionary{
         var error: NSError?
-        var boardsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as NSDictionary
+        var boardsDictionary: NSDictionary = NSJSONSerialization.JSONObjectWithData(inputData, options: NSJSONReadingOptions.MutableContainers, error: &error) as! NSDictionary
         return boardsDictionary
     }
 }

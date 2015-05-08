@@ -10,10 +10,12 @@
 	<string>MyLocations</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</key>
-		<string>https://github.com/aku0004/5373-Swift-Programming-Ankur.git</string>
 		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
 		<string>github.com:rugbyprof/msu-swift.git</string>
+		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
+		<string>https://github.com/rugbyprof/5373-Swift-Programming.git</string>
+		<key>39BE432D3AAD14A87C9B18378F2DE2318592DD1E</key>
+		<string>https://github.com/sri-beerelly/5373-Swift-Programming-beerelly.git</string>
 		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
 		<string>github.com:rugbyprof/4443-Swift-Programming.git</string>
 	</dict>
@@ -21,19 +23,21 @@
 	<string>MyLocations/MyLocations.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</key>
-		<string>../../..</string>
 		<key>119ACF4FAB6CB31AC86D740E720D538477620120</key>
 		<string>../../../../msu-swift</string>
+		<key>1209B2A30B1DA1FF94CCA92428D258D39D448F96</key>
+		<string>../../../../5373-Swift-Programming</string>
+		<key>39BE432D3AAD14A87C9B18378F2DE2318592DD1E</key>
+		<string>../../..</string>
 		<key>8A62EDC508DD03AF1C714C974D19950828CC3E36</key>
 		<string>../../../../4443-Swift-Programming</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/aku0004/5373-Swift-Programming-Ankur.git</string>
+	<string>https://github.com/sri-beerelly/5373-Swift-Programming-beerelly.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</string>
+	<string>39BE432D3AAD14A87C9B18378F2DE2318592DD1E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -48,9 +52,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</string>
+			<string>1209B2A30B1DA1FF94CCA92428D258D39D448F96</string>
 			<key>IDESourceControlWCCName</key>
-			<string>5373-Swift-Programming-Ankur</string>
+			<string>5373-Swift-Programming</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>39BE432D3AAD14A87C9B18378F2DE2318592DD1E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>5373-Swift-Programming-beerelly</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

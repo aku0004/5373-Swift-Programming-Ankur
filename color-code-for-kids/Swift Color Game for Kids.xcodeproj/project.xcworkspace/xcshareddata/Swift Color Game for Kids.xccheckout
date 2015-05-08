@@ -12,24 +12,20 @@
 	<dict>
 		<key>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</key>
 		<string>https://github.com/aku0004/5373-Swift-Programming-Ankur.git</string>
-		<key>BC20A5C738988CBF5C33964FB7059A9F32E135AC</key>
-		<string>https://github.com/kirantejbadana/4443-Swift-Programming-KBadana.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Color_Game_for_Kids/Swift Color Game for Kids.xcodeproj</string>
+	<string>color-code-for-kids/Swift Color Game for Kids.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</key>
-		<string>../../../..</string>
-		<key>BC20A5C738988CBF5C33964FB7059A9F32E135AC</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/kirantejbadana/4443-Swift-Programming-KBadana.git</string>
+	<string>https://github.com/aku0004/5373-Swift-Programming-Ankur.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>BC20A5C738988CBF5C33964FB7059A9F32E135AC</string>
+	<string>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -38,15 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>09B1C4DFA30A6AB407DD7105F0788F368F434A8B</string>
 			<key>IDESourceControlWCCName</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>BC20A5C738988CBF5C33964FB7059A9F32E135AC</string>
-			<key>IDESourceControlWCCName</key>
-			<string>4443-Swift-Programming-KBadana</string>
+			<string>5373-Swift-Programming-Ankur</string>
 		</dict>
 	</array>
 </dict>

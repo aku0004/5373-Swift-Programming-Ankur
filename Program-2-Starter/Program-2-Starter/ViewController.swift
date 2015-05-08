@@ -28,7 +28,7 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
     
     @IBOutlet weak var chosenColorLabel: UILabel!
     @IBOutlet weak var colorItemsLabel: UILabel!
-    
+
     @IBOutlet weak var RGBA: UITextField!
     @IBOutlet weak var HSLA: UITextField!
     @IBOutlet weak var HSVA: UITextField!
@@ -36,6 +36,13 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
     @IBOutlet weak var redSlider: UISlider!
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
+    
+    @IBOutlet weak var latest: UILabel!
+    @IBOutlet weak var lastone: UILabel!
+    @IBOutlet weak var lasttwo: UILabel!
+    @IBOutlet weak var lastthree: UILabel!
+    @IBOutlet weak var lastfour: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,6 +112,8 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         let labelColor:UIColor = myColors.hexStringToUIColor(myColors.fetchHexValue(color))
         chosenColorLabel.backgroundColor = labelColor
         colorItemsLabel.text = color
+        colorItemsLabel.textColor = labelColor
+        
         
         let rgb = myColors.fetchRGB(color)
         let r = Float(255*rgb.R)
@@ -127,13 +136,13 @@ class ViewController: UIViewController , ColorTableViewControllerDelegate{
         HSVA.text="\(ha),\(sa),\(v)"
         
         
-        /*println("red: \(r)")
-        redSlider.setValue(r, animated: true)
-        greenSlider.setValue(g, animated: true)
-        blueSlider.setValue(b, animated: true)
-        
-        println(labelColor)*/
-    }
+        println("red: \(r)")
+        lastfour.backgroundColor = lastthree.backgroundColor
+        lastthree.backgroundColor = lasttwo.backgroundColor
+        lasttwo.backgroundColor = lastone.backgroundColor
+        lastone.backgroundColor = latest.backgroundColor
+        latest.backgroundColor = labelColor
+        println(labelColor)    }
     
     /********************************************************************************************
     * Function: parseJson

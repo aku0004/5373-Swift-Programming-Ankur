@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		032BC7051A82D0CC003E2E62 /* Almofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032BC7041A82D0CC003E2E62 /* Almofire.swift */; };
+		113114B11AFCF43000D4A67D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113114AF1AFCF43000D4A67D /* SwiftyJSON.swift */; };
+		113114B21AFCF43000D4A67D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113114B01AFCF43000D4A67D /* Alamofire.swift */; };
 		8514B4CE1A814C0B005F9715 /* colors.json in Resources */ = {isa = PBXBuildFile; fileRef = 8514B4CD1A814C0B005F9715 /* colors.json */; };
-		8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8514B53C1A818147005F9715 /* SwiftyJSON.swift */; };
 		85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B054251A7FF98600B60421 /* AppDelegate.swift */; };
 		85B054281A7FF98600B60421 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85B054271A7FF98600B60421 /* ViewController.swift */; };
 		85B0542B1A7FF98600B60421 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85B054291A7FF98600B60421 /* Main.storyboard */; };
@@ -86,10 +86,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		032BC7041A82D0CC003E2E62 /* Almofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Almofire.swift; sourceTree = "<group>"; };
+		113114AF1AFCF43000D4A67D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		113114B01AFCF43000D4A67D /* Alamofire.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
 		8514B4CD1A814C0B005F9715 /* colors.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = colors.json; sourceTree = "<group>"; };
 		8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Swift Color Game for Kids/Alamofire/Alamofire.xcodeproj"; sourceTree = "<group>"; };
-		8514B53C1A818147005F9715 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		85B054201A7FF98600B60421 /* Swift Color Game for Kids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Color Game for Kids.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85B054241A7FF98600B60421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85B054251A7FF98600B60421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -136,8 +136,8 @@
 		85B054171A7FF98600B60421 = {
 			isa = PBXGroup;
 			children = (
-				032BC7041A82D0CC003E2E62 /* Almofire.swift */,
-				8514B53C1A818147005F9715 /* SwiftyJSON.swift */,
+				113114AF1AFCF43000D4A67D /* SwiftyJSON.swift */,
+				113114B01AFCF43000D4A67D /* Alamofire.swift */,
 				8514B5201A817EAF005F9715 /* Alamofire.xcodeproj */,
 				85B054221A7FF98600B60421 /* Swift Color Game for Kids */,
 				85B054381A7FF98600B60421 /* Swift Color Game for KidsTests */,
@@ -338,9 +338,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032BC7051A82D0CC003E2E62 /* Almofire.swift in Sources */,
-				8514B53D1A818147005F9715 /* SwiftyJSON.swift in Sources */,
+				113114B11AFCF43000D4A67D /* SwiftyJSON.swift in Sources */,
 				85B054281A7FF98600B60421 /* ViewController.swift in Sources */,
+				113114B21AFCF43000D4A67D /* Alamofire.swift in Sources */,
 				85B054261A7FF98600B60421 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -479,8 +479,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Swift Color Game for Kids/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -491,8 +493,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "Swift Color Game for Kids/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
